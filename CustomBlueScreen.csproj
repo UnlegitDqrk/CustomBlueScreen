@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>UnlegitDqrk</Authors>
+    <Description></Description>
+    <Copyright>UnlegitDqrk</Copyright>
+    <SignAssembly>false</SignAssembly>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <Nullable></Nullable>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="screen.png" />
+    <None Remove="screenQR.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="screen.png" />
+    <Resource Include="screenQR.png" />
+  </ItemGroup>
+
+</Project>
